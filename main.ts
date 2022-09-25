@@ -334,6 +334,7 @@ function showTenHour () {
         tenHour.show()
     }
 }
+// This block creates segments in a chain of LEDs for each "digit" in the clock. It then tturns on them all to show that the strip works, then clears it and, if necessary, sets the date and time.
 let tenHourTime = 0
 let tenSecondTime = 0
 let unitSecondTime = 0
@@ -349,13 +350,14 @@ let tenHour: neopixel.Strip = null
 let strip = neopixel.create(DigitalPin.P0, 20, NeoPixelMode.RGB)
 tenHour = strip.range(0, 2)
 unitHour = strip.range(3, 4)
-tenMinute = strip.range(8, 3)
-unitMinute = strip.range(11, 4)
-tenSecond = strip.range(15, 3)
-unitSecond = strip.range(18, 4)
+tenMinute = strip.range(7, 3)
+unitMinute = strip.range(10, 4)
+tenSecond = strip.range(14, 3)
+unitSecond = strip.range(17, 4)
 strip.showColor(neopixel.colors(NeoPixelColors.Red))
 basic.pause(2000)
 strip.clear()
+// Set date and time here. After uploaded to Microbit, delete from on start block.
 DS3231.dateTime(
 2022,
 9,
@@ -365,6 +367,7 @@ DS3231.dateTime(
 25,
 10
 )
+// This block gets the value of each "digit" of the clock.
 basic.forever(function () {
     getTenHourTime()
     getUnitHourTime()
@@ -373,6 +376,7 @@ basic.forever(function () {
     getTenSecondTime()
     getUnitSecondTime()
 })
+// This block turns on the individual LEDs to represent each "digit."
 basic.forever(function () {
     showTenHour()
     showUnitHour()
