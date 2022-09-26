@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.7.3",
-        "pxt-DS3231": "github:keble6/pxt-ds3231#v1.0.2"
+        "pxt-DS3231": "github:keble6/pxt-ds3231#v1.0.2",
+        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.13"
     },
     "files": [
         "main.blocks",
