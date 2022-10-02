@@ -236,7 +236,7 @@ function showTenSecond () {
     } else if (tenSecondTime == 3) {
         tenSecond.clear()
         tenSecond.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
-        tenSecond.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
+        tenSecond.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
         tenSecond.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
         tenSecond.show()
     } else if (tenSecondTime == 4) {
@@ -343,8 +343,8 @@ function showUnitHour () {
 function showTenHour () {
     if (tenHourTime == 2) {
         tenHour.clear()
-        tenHour.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
-        tenHour.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+        tenHour.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
+        tenHour.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
         tenHour.show()
     } else if (tenHourTime == 1) {
         tenHour.clear()
