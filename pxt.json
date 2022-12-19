@@ -1,5 +1,5 @@
 {
-    "name": "binaryClock",
+    "name": "binaryClockWithDST",
     "description": "",
     "dependencies": {
         "core": "*",
