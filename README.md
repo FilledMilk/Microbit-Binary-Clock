@@ -2,7 +2,9 @@
 
 I designed this to be a project kids (probably middle schoolers) could follow to learn soldering and programming. There are a lot of kits available, but they lack the ability to teach kids to make their own projects. 
 
-This includes the code and related files to make a binary clock with a Micro:bit. Versions 1 and 2 will work with these. The Makecode works by taking the time from the RTC module (see below for the part) and then displaying it via the neopixel library. Two forever blocks run to (1) obtain the current hour, second, and minute values and (2) display the values in binary format through the neopixels.
+This includes the code and related files to make a binary clock with a Micro:bit. Versions 1 and 2 will work with these. The Makecode works by taking the time from the RTC module (see below for the part) and then displaying it via the neopixel library. Two forever blocks run to (1) obtain the current hour, second, and minute values and (2) display the values in binary format through the neopixels. The work is done through the defined functions.
+
+The Micro:bit buttons are configured so as to allow the user to (1) toggle between DST and non-DST, (2) toggle between the "1" LED colors, and (3) change the brightness.
 
 The Micro:bit runs on 3.3v, but the neopixels can run on 5 volts. Since 5 volt power supplies are common, I opted to run the clock on a 5 volt supply and power the Micro:bit through the regulator module. 
 
