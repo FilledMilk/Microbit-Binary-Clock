@@ -20,7 +20,10 @@ I designed the housing in Freecad. The top piece (with the holes for the LEDs) s
 
 Finally, I used M3 brass inserts in the holes where the circuit board sits. As is, the M3 screws went in fairly easily. The inserts are readily available online. The PCB is held in place by screwing it in to the brass inserts.
 
-<h1>Default Content from Microsoft/Github Below</h1>
+<h1>Printed Circuit Board</h1>
+I designed the printed circuit board ("PCB") in EasyEDA and had it fabricated by JLCPCB. The EasyEDA software is fairly easy to use and should be for most kids. The Gerber has been uploaded here.
+
+<h1>Default Content from Microsoft/Github</h1>
 
 > Open this page at [https://filledmilk.github.io/microbit-binary-clock/](https://filledmilk.github.io/microbit-binary-clock/)
 
