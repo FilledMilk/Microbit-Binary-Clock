@@ -4,7 +4,7 @@ I designed this to be a project kids (probably middle schoolers) could follow to
 
 The Makecode works by taking the time from the RTC module (see below for the part) and then displaying it via the neopixel library. The "On Start" block sets the initial parameters and displays a rainbow, mainly as a check to ensure that the LEDs are connected. Two forever blocks run to (1) obtain the current hour, second, and minute values and (2) display the values in binary format through the neopixels. The work of getting the time and assigning values to the LEDs is done through the defined functions.
 
-The Micro:bit buttons are configured so as to allow the user to (1) toggle between daylight savings time ("DST") and non-DST, (2) toggle between the "1" LED colors, and (3) change the brightness. Press A+B to toggle DST. You should be smart enough to discern the other functions.
+The Micro:bit buttons are configured so as to allow the user to (1) toggle between daylight savings time ("DST") and non-DST, (2) toggle between the "1" LED colors, and (3) change the brightness. Press A+B to toggle DST. Pressing A or B alone will toggle brightness and colors.
 
 ***IMPORTANT*** Make sure to remove the functions to set the time in the On Start block after you upload the program to the DST module. Otherwise, the time will continue to reset each time the Micro:bit is reset.
 
