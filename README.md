@@ -13,12 +13,10 @@ The Micro:bit runs on 3.3v, but the neopixels can run on 5 volts. Since 5 volt p
 <h1>Electronic Components</h1>
 Through-hole components for the project uses a DS3231 real time clock ("RTC") module, an AMS1117-3.3v voltage regulator breakout board, a single pull double throw slide switch, and a barrel jack connector. Those parts are generally available from Amazon/eBay/Aliexpress/Banggood. The last through-hole component is a Micro:bit breakout board from Sparkfun. Kids should have no problem soldering these. You should obviously check the dimensions of the parts you purchase. Other than the switch and the barrel jack connector, the parts have 2.54 pitch pinouts. 
 
-
 The LEDs are WS2812B-2020 modules. These do not need resistors or capacitors. I purchased mine through LCSC. The data sheets suggest that the modules are somewhat fragile, but I soldered mine with solder paste and a hot air station set to 300 degrees celsisus. Consult the data sheet about soldering.
 
 <h1>Housing</h1>
 I designed the housing in Freecad. The top piece (with the holes for the LEDs) should be printed with supports. I used an Ender 3 Pro with minimal modifications. I had to remove a slight amount of material from the holes in the top piece where the pegs on the bottom part insert. Results will depend on your printer's calibration. I glued the parts together with Gorilla Glue. I then used Rustoleum filler primer spray to fill any layer lines or other imperfections. After sanding it the housing, I painted it. Most paints should adhere to the Rustoleum spray.
-
 
 Finally, I used M3 brass inserts in the holes where the circuit board sits. As is, the M3 screws went in fairly easily. The inserts are readily available online. The PCB is held in place by screwing it in to the brass inserts.
 
